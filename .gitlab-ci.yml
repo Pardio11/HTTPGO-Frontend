@@ -1,0 +1,13 @@
+image: node:latest
+
+pages:
+  script:
+    - npm install
+    - npm run generate
+    - rm -rf ./public
+    - mv ./.output/public ./public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  
