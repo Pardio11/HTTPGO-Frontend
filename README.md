@@ -2,6 +2,8 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+[Try Out]( https://httpgo-frontend-pardio11-05dffc836697fef0ca18d8bd0d152f4735cda5.gitlab.io/).
+
 ## Setup
 
 Make sure to install the dependencies:
