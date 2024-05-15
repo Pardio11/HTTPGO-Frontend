@@ -21,8 +21,10 @@ onMounted(async () => {
     loadCars()
 });
 
+
 const openModal = () => {
     title.value = "Add New Car"
+    resetCar()
     isOpen.value = true;
 };
 
@@ -54,6 +56,20 @@ const submit = () => {
         updateCar(keyCar.value)
     }
 
+};
+
+const resetCar = () => {
+    newCar.value = {
+        brand: '',
+        model: '',
+        year: null,
+        motor: {
+            size: null,
+            horsepower: null,
+            torque: null,
+            max_rpm: null
+        }
+    }
 };
 const loadCars = async () => {
     try {
