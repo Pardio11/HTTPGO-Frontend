@@ -188,11 +188,11 @@ const updateCar = async (carId) => {
                     <td class="py-3 text-center ">
                         <button @click="edit(key)"
                             class="font-bold rounded-full transition duration-300 ease-in-out transform hover:scale-105 mr-4">
-                            <NuxtImg src="./imgs/edit.png" alt="Delete" class="h-6 w-6 inline-block" />
+                            <img src="../assets/imgs/edit.png" alt="Delete" class="h-6 w-6 inline-block" />
                         </button>
                         <button @click="deleteCar(key)"
                             class="font-bold rounded-full transition duration-300 ease-in-out transform hover:scale-105 ">
-                            <NuxtImg src="./imgs/trash.svg" alt="Delete" class="h-6 w-6 inline-block" />
+                            <img src="../assets/imgs/trash.svg" alt="Delete" class="h-6 w-6 inline-block" />
                         </button>
                     </td>
                 </tr>
