@@ -1,6 +1,7 @@
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[Link]( https://httpgo-frontend-pardio11-05dffc836697fef0ca18d8bd0d152f4735cda5.gitlab.io/) 
 
 ## Setup
 
